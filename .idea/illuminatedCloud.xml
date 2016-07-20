@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="IlluminatedCloudSettings">
+    <option name="connections">
+      <list>
+        <IlluminatedCloudConnection>
+          <option name="buildSuccessDatesBySourceRootRelativePath">
+            <map>
+              <entry key="CLASSES/EARTHQUAKECONTROLLER.CLS" value="1469016282387" />
+            </map>
+          </option>
+          <option name="defaultModuleName" value="earthquakesNewDev" />
+          <option name="name" value="EarthquakesNewDev" />
+          <option name="offlineSymbolTableGenerationDate" value="1468594584993" />
+          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/EarthquakesNewDev/OfflineSymbolTable.zip" />
+          <option name="organizationType" value="DEVELOPMENT" />
+          <option name="password" value="dfe3dfcbdfc4dfc7dfc1dfc2df92df9bdf99" />
+          <option name="securityToken" value="dffadffddfd8dfccdfd2dfd2dfc8dfd2dfc8dffbdfc3df9bdfe9dfecdfc1dfc0dfccdf9edff0dfe9dfdcdfc4dfc0dfdbdfcf" />
+          <option name="showAdvanced" value="true" />
+          <option name="username" value="eqdev@fullstackjax.com" />
+        </IlluminatedCloudConnection>
+      </list>
+    </option>
+    <option name="selectedConnectionIndex" value="0" />
+  </component>
+</project>
