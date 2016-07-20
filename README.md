@@ -25,3 +25,6 @@ the results back to the Visualforce page as a list of earthquake objects.
 
 This project was part of a coding assignment I did to learn how to use the Google Maps APIs. It is now part of my portfolio.
 
+Anyone using this cow will need to replace the ${key} token in the following line with their own Google Map key.
+
+<apex:includeScript loadOnReady="true" value="https://maps.googleapis.com/maps/api/js?key=${key} &callback=initMap" />
