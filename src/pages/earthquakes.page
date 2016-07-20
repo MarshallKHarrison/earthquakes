@@ -16,7 +16,7 @@
 			text-indent: 25px;
 		}
 	</style>
-	<apex:includeScript loadOnReady="true" value="https://maps.googleapis.com/maps/api/js?key=MY_KEY&callback=initMap" />
+	<apex:includeScript loadOnReady="true" value="https://maps.googleapis.com/maps/api/js?key=${key}&callback=initMap" />
 
 	<h1>Welcome to The Earthquake Info Page</h1>
 	<p>This page allows you to view earthquakes around any city.</p>
