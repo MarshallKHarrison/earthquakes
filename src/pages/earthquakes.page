@@ -281,6 +281,7 @@
         <!-- ********************************************************************** -->
 
 		<button onclick="findAllEarthquakes()">Get Earthquakes</button>
+        <button onclick="getTopTen"()">Top 10 for the last year</button>
 		<button onclick="clearMap()">Clear the Map</button>
 	</p>
 	<p>
