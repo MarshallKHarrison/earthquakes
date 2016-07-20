@@ -1,13 +1,7 @@
 global with sharing class EarthquakeController {
 
     public String location { get; set; }
-    //This comment added on the server
-    // another server side comment
-    //public PageReference submit() {
 
-    //This comment added locally
-    //Another local comment
-    // Another local comment
     global class EarthQuake {
         public String eqid;
         public decimal magnitude;
@@ -29,11 +23,13 @@ global with sharing class EarthquakeController {
         System.debug('lat = ' + lat);
         System.debug('lon = ' + lon);
         System.debug('Build bounding box');
+
         // Build the bounding box
         Decimal north = Decimal.valueof(lat) + 16;
         Decimal south = Decimal.valueof(lat) - 16;
         Decimal east = Decimal.valueof(lon) + 16;
         Decimal west = Decimal.valueof(lon) - 16;
+
         System.debug('North:' + north);
         System.debug('South:' + south);
         System.debug('East:' + east);
